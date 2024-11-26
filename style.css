@@ -506,10 +506,12 @@ a:hover .tooltip,
     position: relative;
 }
 .tab-item{
-    border: 1px solid var(--main-color);
+    border: 0px solid var(--main-color);
+    transition: 0.3s;
 }
 
 .tab-item:hover{
+    border: 1px solid var(--main-color);
     box-shadow:  0 0 1.6rem var(--main-color);
     cursor: pointer;
 }
