@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="active">
+                <i class="bx bx-home-alt"></i>
+                <span class="tooltip">Home</span>
+            </li>
+            <li>
+                <i class="bx bx-user"></i>
+                <span class="tooltip">About</span>
+            </li>
+            <li>
+                <i class="bx bx-detail"></i>
+                <span class="tooltip">Resume</span>
+            </li>
+            <li>
+                <i class="bx bx-briefcase"></i>
+                <span class="tooltip">Portfolio</span>
+            </li>
+            <li>
+                <i class="bx bx-envelope"></i>
+                <span class="tooltip">Contact</span>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="box">
+            
+<!--  --------------------------------------  Home   ----------------------------------------------------->
+
+<section class="section home active">
+    <div class="home-info">
+        <h3>Hello I'm</h3>
+        <h1>Abdelkarim Yassin</h1>
+        <h3>A Frontend Developer</h3>
+        <p class="desc">
+            A passionate frontend developer specializing in crafting seamless, responsive web experiences. With expertise in Angular, I turn creative ideas into functional, high-performance web applications. Let's build something amazing together!
+        </p>
+        <div class="btn-sci">
+            <a href="#" class="btn" aria-label="Download CV">Download CV</a>
+            <div class="sci">
+                <a href="https://github.com/Abdelkarimya96" aria-label="Visit my GitHub profile">
+                    <i class="bx bxl-github"></i>
+                    <span class="tooltip">Github</span>
+                </a>
+                <a href="https://www.linkedin.com/in/abdelkarim-yasein-73007a30b/" aria-label="Visit my LinkedIn profile">
+                    <i class="bx bxl-linkedin"></i>
+                    <span class="tooltip">LinkedIn</span>
+                </a>
+                <a href="https://x.com/home" aria-label="Visit my Twitter profile">
+                    <i class="bx bxl-twitter"></i>
+                    <span class="tooltip">Twitter</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="img-wrapper">
+        <div class="img-box home-img">
+            <img src="images/profile.jpg" alt="Profile picture of Abdelkarim Yassin">
+        </div>
+    </div>
+</section>
+
+
+<!--  --------------------------------------  About   ----------------------------------------------------->
+
+<section class="section about" id="more-about-me">
+    <div class="img-wrapper">
+        <div class="img-box home-img">
+            <img src="images/profile.jpg" alt="Profile picture">
+        </div>
+    </div>
+    <div class="about-info">
+        <h2 style="text-align: left;" class="title">About me</h2>
+        <h3>Frontend Developer</h3>
+        <p class="desc">
+            I began my professional journey as a civil engineer, but my fascination with technology led me to pivot into web development.
+            <span id="more-text" class="hidden">
+                Over the years, I've honed my skills in Angular, HTML, CSS, JavaScript, and Sass, creating scalable and user-friendly applications. My background in engineering gives me a unique edge in problem-solving and attention to detail. When I'm not coding, you'll find me exploring the latest tech trends, mentoring aspiring developers, or diving into photography and design. My mission is to create solutions that are not just functional but also delightful to use.
+            </span>
+        </p>
+        <button id="toggle-btn" class="btn">Read more</button>
+    </div>
+</section>
+
+            
+
+<!-- ----------------------------------------   Resume   ----------------------------------------------------->
+
+            <section class="section resume">
+                <h2 class="title">Resume</h2>
+                <div class="tab-box">
+                    <div class="tab-list resume-list active">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="tab-list resume-list">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class="tab-list resume-list">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-grid resume-box experience active">
+                        <div class="tab-item resume-item">
+                            <h4 class="exp">2024 - until now</h4>
+                            <h4 class="job">Angular Frontend developer</h4>
+                            <h4 class="company">Freelance</h4>
+                            <p class="description">
+                                As a Freelance Angular-ts & Vanilla JS Frontend Developer, I have designed and developed 
+                                dynamic, responsive, and user-friendly web applications using Angular, Bootstrap, 
+                                and other modern front-end technologies. I have successfully collaborated with clients 
+                                to bring their ideas to life, delivering custom solutions with a focus on performance, 
+                                scalability, and seamless user experiences.
+                            </p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4 class="exp">2021 - 2023</h4>
+                            <h4 class="job">Infrastructure engineer</h4>
+                            <h4 class="company">Bonian for HDD works</h4>
+                            <h4 class="company">Dahab comp.</h4>
+                            <h4 class="company">Tushka for road works</h4>
+                            <p class="description">
+                                During this period, I held diverse roles in infrastructure projects. Initially, I worked as a Steering Engineer specializing in Horizontal Directional Drilling (HDD), where I was responsible for guiding and managing drilling operations for underground installations .
+                                Later, I transitioned to the role of Site Engineer at a sewage plant installation project.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-grid resume-box skills">
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-html5"></i>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-css3"></i>
+                            <p>CSS3</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-sass"></i>
+                            <p>SASS</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-javascript"></i>
+                            <p>Javascript</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-typescript"></i>
+                            <p>Typescript</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-bootstrap"></i>
+                            <p>Bootstrap</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-tailwind-css"></i>
+                            <p>Tailwind</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-angular"></i>
+                            <p>Angular</p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <i class="bx bxl-github"></i>
+                            <p>GitHub</p>
+                        </div>
+                    </div>
+                    <div class="tab-grid resume-box education">
+                        <div class="tab-item resume-item">
+                            <h4 class="exp">2019</h4>
+                            <h4>BSCE - Bachelor of Science in Civil Engineering</h4>
+                            <p class="description">Worked mainly in the infrastructure field.                            
+                            </p>
+                        </div>
+                        <div class="tab-item resume-item">
+                            <h4 class="exp">2024</h4>
+                            <h4>Self-educated</h4>
+                            <p class="description">As a self-taught front-end developer, I have honed my skills through extensive online learning from reputable platforms and channels. My journey includes studying from renowned YouTube channels such as Elzero Web School, Code with Mosh, SuperSimpleDev, and Web Dev Simplified, which provided me with practical and in-depth knowledge of web development concepts and practices. Additionally, I have leveraged trusted resources like W3Schools, MDN Web Docs, and other leading web development platforms to deepen my understanding of core technologies and frameworks. This blend of diverse learning methods has equipped me with the essential expertise to excel in front-end development.
+                                and web dev websites like W3schools, MDN and more                            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!--  --------------------------------------  Portfolio   ----------------------------------------------------->
+
+            <section class="section portfolio">
+                <h2 class="title">Portfolio</h2>
+                <div class="tab-box">
+                    <div class="tab-list portfolio-list active">
+                        <h3>My work</h3>
+                    </div>
+                    <div class="tab-list portfolio-list">
+                        <h3>My Services</h3>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tab-grid portfolio-box work active">
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="images/styleford.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>StyleFord Frontend Project</h4>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <div class="tech-used">
+                                    <p>HTML5, CSS3, Javascript</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="https://abdelkarimya96.github.io/StyleFord/">
+                                        <i class="bx bx-arrow-back"></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="https://github.com/Abdelkarimya96/StyleFord">
+                                        <i class="bx bxl-github"></i>
+                                        <span class="tooltip">Github Repository</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="images/Point.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>OnPoint Frontend Project</h4>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <div class="tech-used">
+                                    <p>HTML5, CSS3, Javascript</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class="bx bx-arrow-back"></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bx bxl-github"></i>
+                                        <span class="tooltip">Github Repository</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="images/img.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>3D Responsive Portfolio</h4>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <div class="tech-used">
+                                    <p>HTML5, CSS3, Javascript</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class="bx bx-arrow-back"></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bx bxl-github"></i>
+                                        <span class="tooltip">Github Repository</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-item portfolio-item">
+                            <div class="work-img">
+                                <img src="images/edupath.png" alt="">
+                            </div>
+                            <div class="work-info">
+                                <h4>EduPath Frontend Project</h4>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <div class="tech-used">
+                                    <p>HTML5, CSS3, Bootstrap5, Angular17</p>
+                                </div>
+                                <div class="portfolio-icon work-icon">
+                                    <a href="#">
+                                        <i class="bx bx-arrow-back"></i>
+                                        <span class="tooltip">Preview</span>
+                                    </a>
+                                    <a href="#">
+                                        <i class="bx bxl-github"></i>
+                                        <span class="tooltip">Github Repository</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-grid portfolio-box service">
+                        <div class="tab-item portfolio-item">
+                            <div class="portfolio-icon service-icon">
+                                <i class="bx bx-code-alt icon"></i>
+                                <a href="#"><i class="bx bx-arrow-back"></i></a>
+                            </div>
+                            <h4 style="font-size: 3rem;">Web Developement</h4>
+                            <br>
+                            <h4>Responsive Web Design (RWD)</h4>
+                            <p>Developing responsive, mobile-first websites that adapt seamlessly to all screen sizes.</p>
+                    
+                            <h4>Single Page Applications (SPAs)</h4>
+                            <p>Creating fast, dynamic SPAs using Angular to deliver a smooth user experience.</p>
+                    
+                            <h4>Custom Frontend Development</h4>
+                            <p>Designing and implementing tailored UI solutions that meet specific business requirements.</p>
+                    
+                            <h4>Component-Based Development</h4>
+                            <p>Building reusable, efficient, and scalable UI components with Angular.</p>
+                    
+                            <h4>API Integration</h4>
+                            <p>Integrating RESTful APIs into Angular applications to connect the frontend with backend services.</p>
+                    
+                            <h4>Frontend Optimization</h4>
+                            <p>Enhancing web performance through efficient coding, lazy loading, and bundling techniques.</p>
+                    
+                            <h4>State Management</h4>
+                            <p>Implementing state management using tools like RxJS, NgRx, or Akita for scalable and maintainable applications.</p>
+                    
+                            <!-- <h4>UI/UX Implementation</h4>
+                            <p>Translating designs from Figma, Adobe XD, or Sketch into pixel-perfect, functional web interfaces.</p> -->
+                    
+                            <h4>Cross-Browser Compatibility</h4>
+                            <p>Ensuring consistent user experience across different browsers and platforms.</p>
+                    
+                            <!-- <h4>Frontend Testing</h4>
+                            <p>Writing unit tests with Jasmine/Karma and end-to-end tests with Protractor or Cypress for reliable applications.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!--  --------------------------------------  Contact   ----------------------------------------------------->
+
+<section class="section contact active" id="contact">
+    <h2 class="title">Contact</h2>
+    <div class="contact-wrapper">
+        <form 
+            action="https://formspree.io/f/movqnkal" 
+            method="POST" 
+            class="contact-form" 
+            id="contact-form">
+            <h3>Let's work together</h3>
+            <div class="field-box">
+                <input type="text" id="full-name" name="fullName" placeholder="Full name" required>
+
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+                <input type="tel" id="phone" name="phone" placeholder="Phone number">
+
+                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            </div>
+            <div class="contact-btn">
+                <button type="submit" class="btn">Send message</button>
+            </div>
+        </form>
+        <div id="form-response"></div>
+    </div>
+</section>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
