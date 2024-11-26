@@ -505,6 +505,9 @@ a:hover .tooltip,
 .portfolio-box.work .portfolio-item{
     position: relative;
 }
+.tab-item{
+    border: 1px solid var(--main-color);
+}
 
 .portfolio-box.work .portfolio-item::before{
     content: "";
