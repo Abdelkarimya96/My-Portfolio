@@ -509,6 +509,11 @@ a:hover .tooltip,
     border: 1px solid var(--main-color);
 }
 
+.tab-item:hover{
+    box-shadow:  0 0 0.5rem var(--main-color);
+    cursor: pointer;
+}
+
 .portfolio-box.work .portfolio-item::before{
     content: "";
     position: absolute;
